@@ -53,7 +53,7 @@ gulp.task( 'cssInliner', function(){
             applyStyleTags:         true,
             applyLinkTags:          true,
             removeStyleTags:        true,
-            removeLinkTags:         true,
+            removeLinkTags:         false,
             preserveMediaQueries:   true
         } ) )
         .pipe( htmlReplace({
