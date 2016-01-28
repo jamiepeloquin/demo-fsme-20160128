@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>ACME Corp.: Welcome!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="scss/email.css" rel="stylesheet">
+    <style>
+        /* Mobile Views */
+        @media (max-width: 600) {
+            .content-buffer {
+                width: .125em;
+            }
+        }
+    </style>
+</head>
+<body>
+<table class="main">
+    <thead>
+        <tr class="table-layout"><td class="content-buffer"></td><td class="content"></td><td class="content-buffer"></td></tr>
+        <tr>
+            <td colspan="3" class="header">
+                <img class="brand" src="https://s3.amazonaws.com/somewww.jamiepeloquin.com/demo-20160128/acme.jpg" width="200" alt="ACME Corp.">
+                <hr>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="content-buffer"></td>
+            <td class="content">
+                <h2>Welcome {{NotificationRecipientId.FirstName}},</h2>
+                <p>We have all sorts of great products here at ACME Corp.!</p>
+                <p>
+                    <!-- build:msoStart -->
+                    <!-- endbuild -->
+                    <table><tr><td class="button">
+                    <!-- build:msoEnd -->
+                    <!-- endbuild -->
+                        <a href="{{CatalogPromoUrl}}" class="button">Sign Me Up for the Catalog!</a>
+                    <!-- build:msoStart -->
+                    <!-- endbuild -->
+                    </td></tr></table>
+                    <!-- build:msoEnd -->
+                    <!-- endbuild -->
+                </p>
+            </td>
+            <td class="content-buffer"></td>
+        </tr>
+        <tr>
+            <td class="content-buffer"></td>
+            <td class="content">
+                <div class="footer">
+                    <p>ACME Corp. is a renowned provider of great products, and we strive for 100% satisfaction, whether it be constant accelleration of an anvil dropping, or high-definition tunnel painting.</p>
+                </div>
+            </td>
+            <td class="content-buffer"></td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3" class="footer">
+                <hr>
+                <address>Copyright &copy;{{Year}} ACME Corporation., All rights reserved.</address>
+            </td>
+        </tr>
+    </tfoot>
+</table>
+</body>
+</html>

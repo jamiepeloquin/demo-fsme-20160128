@@ -1,0 +1,24 @@
+{
+  "name": "demo-fsme-html-email",
+  "version": "0.0.1",
+  "private": true,
+  "author": [
+    {
+      "name": "Jamie Peloquin",
+      "email": "jamie@jamiepeloquin.com"
+    }
+  ],
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-html-extract": "0.0.3",
+    "gulp-html-replace": "^1.5.5",
+    "gulp-inline-css": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev": "^6.0.1",
+    "gulp-sass": "^2.0.4",
+    "merge-stream": "^1.0.0",
+    "rimraf": "^2.4.3",
+    "run-sequence": "^1.1.4"
+  },
+  "devDependencies": {}
+}
