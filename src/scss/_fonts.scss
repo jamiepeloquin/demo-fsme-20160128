@@ -1,17 +1,15 @@
 /**
- * Defines common fonts and typography for use across Newforma Web applications.
- * Author:  Jamie Peloquin <jpeloquin@newforma.com>
+ * Author:  Jamie Peloquin <jamie@jamiepeloquin.com>
  *
  */
 
 /**
- * Get the OpenSans webfont
- * Generated @ https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans
- * License: Apache - http://www.apache.org/licenses/LICENSE-2.0.html
+ * Get the Cutive webfont
+ * Generated @ https://www.google.com/fonts#UsePlace:use/Collection:Karma
  */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Karma:400,700);
 
-$defaultFontFamily: "Open Sans", sans-serif;
+$defaultFontFamily: "Karma", serif;
 $defaultFontSize: 18px;
 $defaultFontLineHeight: 1.5;
 
